@@ -6,5 +6,5 @@ Consiste em uma pequena folha de notícias chamada Folha Polar contendo:
 - Imagens,
 - Anúncios,
 - E categorias.
-- 
+  
 Todas fictícias.
