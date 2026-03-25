@@ -168,20 +168,31 @@ padding: 20px;
 text-align: center;
 }
 
-/* ANÚNCIOS */
-.ads {
-flex: 0.5;
+.pagina {
 display: flex;
-flex-direction: column;
-gap: 15px;
+justify-content: center;
+align-items: flex-start;
+gap: 20px;
 }
 
-.ad {
+/* BANNERS LATERAIS */
+.ads-lateral {
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin-top: 40px;
+}
+
+.banner {
+width: 160px;
+height: 600px;
 background: #f1f1f1;
 border: 1px dashed #bbb;
-padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
 text-align: center;
+color: #666;
 border-radius: 6px;
 font-size: 14px;
-color: #666;
 }
